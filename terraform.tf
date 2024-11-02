@@ -3,13 +3,13 @@
 
 terraform {
 
-  cloud {
-    organization = "organization-name"
+  /*cloud {
+    organization = "devops_sre_102024"
 
     workspaces {
       name = "learn-terraform"
     }
-  }
+  }*/
 
   required_providers {
     aws = {
